@@ -11,7 +11,7 @@ class Load extends Phaser.Scene {
        this.load.tilemapTiledJSON("Dungeon", "tiles/Dungeon(1).tmj"); 
        this.load.image("background", "MainMenu.png")
        this.load.atlas('fauna', 'Spritesheet/fauna.png','Spritesheet/fauna.json')
-    //    this.load.audio('start', 'audi/MainMenu')
+     
     }
 
     create() {
@@ -80,10 +80,6 @@ class Load extends Phaser.Scene {
                    
             });
 
-            // this.load.audio({
-            //     key: 'start',
-            //     url: [ 'audio/MainMenu.mp3' ]
-            // });
             //  defaultTextureKey: "fauna",
             //  frames: [
             //      { frame: "tile_0000.png" }

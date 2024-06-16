@@ -17,7 +17,7 @@ let config = {
     width: 800,
     height: 800,
     SCALE:{zoom:2},
-    scene: [Load,MainMenu,Dungeoncrawler],
+    scene: [Load,MainMenu, Dungeoncrawler],
     
 }
 
