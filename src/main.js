@@ -9,14 +9,15 @@ let config = {
         arcade: {
             debug: true,
             gravity: {
-                x: 0,
+                x:0,
                 y: 0
             }
         }
     },
-    width: 1280,
-    height: 720,
-    scene: [Load,Dungeoncrawler]
+    width: 800,
+    height: 800,
+    SCALE:{zoom:2},
+    scene: [Load,MainMenu,Dungeoncrawler],
     
 }
 
